@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo 'Test'
+        readFile 'HelloWorld.java'
       }
     }
   }
